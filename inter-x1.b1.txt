@@ -1,0 +1,53 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            32:2a:1e:0f:2e:a1:71:9d:09:6e:65:9c:d5:58:05:24
+        Signature Algorithm: ecdsa-with-SHA512
+        Issuer: CN = Ben Crannich Root CA B1, O = Ben Crannich
+        Validity
+            Not Before: Nov 18 20:21:57 2022 GMT
+            Not After : Nov 17 20:21:57 2027 GMT
+        Subject: CN = Ben Crannich Intermediate CA X1, O = Ben Crannich
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:30:b9:51:ed:9f:cf:65:6f:4a:3c:3e:58:31:88:
+                    ff:ef:70:f0:4b:92:bb:12:1f:36:dc:b8:a1:09:4f:
+                    7a:b3:0e:09:99:34:fa:87:c8:cc:bc:a4:23:6e:90:
+                    4d:97:1a:fb:2f:c4:4d:e6:15:95:26:ac:fb:f5:0f:
+                    b2:17:25:69:f2
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Key Usage: critical
+                Digital Signature, Certificate Sign, CRL Sign
+            X509v3 Subject Key Identifier: 
+                7E:5B:E7:93:A3:59:BC:42:0A:D1:C1:94:A2:25:BD:EF:A6:B8:B3:FC
+            X509v3 Authority Key Identifier: 
+                keyid:9D:94:05:8B:85:53:8D:B8:DA:1B:5E:53:E5:5B:8B:E3:A4:BD:54:4B
+                DirName:/CN=Ben Crannich Root CA B1/O=Ben Crannich
+                serial:F0:F3:46:C9:59:1C:D7:30:C2:C5:5D:07:FC:A4:A9:CD
+
+    Signature Algorithm: ecdsa-with-SHA512
+         30:45:02:20:2d:40:9f:67:c7:80:04:37:17:0d:15:3d:e2:07:
+         1f:37:d7:4a:c3:12:6a:e7:6c:56:ad:fc:d3:6c:c5:74:c7:aa:
+         02:21:00:89:50:03:87:c5:f8:3b:0d:4b:30:ed:2b:5b:9d:ea:
+         22:6d:93:f9:8f:ca:d3:d0:e0:dc:f3:95:ce:51:41:5d:3b
+-----BEGIN CERTIFICATE-----
+MIICLzCCAdWgAwIBAgIQMioeDy6hcZ0JbmWc1VgFJDAKBggqhkjOPQQDBDA5MSAw
+HgYDVQQDDBdCZW4gQ3Jhbm5pY2ggUm9vdCBDQSBCMTEVMBMGA1UECgwMQmVuIENy
+YW5uaWNoMB4XDTIyMTExODIwMjE1N1oXDTI3MTExNzIwMjE1N1owQTEoMCYGA1UE
+AwwfQmVuIENyYW5uaWNoIEludGVybWVkaWF0ZSBDQSBYMTEVMBMGA1UECgwMQmVu
+IENyYW5uaWNoMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMLlR7Z/PZW9KPD5Y
+MYj/73DwS5K7Eh823LihCU96sw4JmTT6h8jMvKQjbpBNlxr7L8RN5hWVJqz79Q+y
+FyVp8qOBtjCBszAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBhjAdBgNV
+HQ4EFgQUflvnk6NZvEIK0cGUoiW976a4s/wwcQYDVR0jBGowaIAUnZQFi4VTjbja
+G15T5VuL46S9VEuhPaQ7MDkxIDAeBgNVBAMMF0JlbiBDcmFubmljaCBSb290IENB
+IEIxMRUwEwYDVQQKDAxCZW4gQ3Jhbm5pY2iCEQDw80bJWRzXMMLFXQf8pKnNMAoG
+CCqGSM49BAMEA0gAMEUCIC1An2fHgAQ3Fw0VPeIHHzfXSsMSaudsVq3802zFdMeq
+AiEAiVADh8X4Ow1LMO0rW53qIm2T+Y/K09Dg3POVzlFBXTs=
+-----END CERTIFICATE-----
