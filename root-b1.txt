@@ -1,0 +1,46 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            f0:f3:46:c9:59:1c:d7:30:c2:c5:5d:07:fc:a4:a9:cd
+        Signature Algorithm: ecdsa-with-SHA512
+        Issuer: CN = Ben Crannich Root CA B1, O = Ben Crannich
+        Validity
+            Not Before: Nov 18 19:39:48 2022 GMT
+            Not After : Nov 15 19:39:48 2032 GMT
+        Subject: CN = Ben Crannich Root CA B1, O = Ben Crannich
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:34:40:90:04:dc:f4:40:00:26:de:7a:c8:aa:fc:
+                    5c:ae:a9:c9:b2:64:0d:ee:a3:44:eb:d5:de:33:7a:
+                    4a:6b:e1:ab:4c:dd:12:d6:db:47:f1:fc:5c:39:86:
+                    9f:fe:cf:d6:c2:1f:c2:38:e9:5c:d5:ed:0d:47:8a:
+                    a9:c4:59:40:21
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Subject Key Identifier: 
+                9D:94:05:8B:85:53:8D:B8:DA:1B:5E:53:E5:5B:8B:E3:A4:BD:54:4B
+    Signature Algorithm: ecdsa-with-SHA512
+         30:46:02:21:00:ed:0a:e0:45:95:1f:f7:9a:40:12:b1:7b:98:
+         d3:53:a1:9a:fe:69:54:45:bf:a2:96:0f:35:81:53:38:9d:5a:
+         90:02:21:00:d0:b8:83:d6:48:62:11:8d:7f:1d:ab:9e:00:c3:
+         be:52:b1:a9:b4:bf:eb:4e:6d:c6:fc:90:1a:26:41:b9:35:b3
+-----BEGIN CERTIFICATE-----
+MIIBtDCCAVmgAwIBAgIRAPDzRslZHNcwwsVdB/ykqc0wCgYIKoZIzj0EAwQwOTEg
+MB4GA1UEAwwXQmVuIENyYW5uaWNoIFJvb3QgQ0EgQjExFTATBgNVBAoMDEJlbiBD
+cmFubmljaDAeFw0yMjExMTgxOTM5NDhaFw0zMjExMTUxOTM5NDhaMDkxIDAeBgNV
+BAMMF0JlbiBDcmFubmljaCBSb290IENBIEIxMRUwEwYDVQQKDAxCZW4gQ3Jhbm5p
+Y2gwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQ0QJAE3PRAACbeesiq/Fyuqcmy
+ZA3uo0Tr1d4zekpr4atM3RLW20fx/Fw5hp/+z9bCH8I46VzV7Q1HiqnEWUAho0Iw
+QDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUnZQF
+i4VTjbjaG15T5VuL46S9VEswCgYIKoZIzj0EAwQDSQAwRgIhAO0K4EWVH/eaQBKx
+e5jTU6Ga/mlURb+ilg81gVM4nVqQAiEA0LiD1khiEY1/HaueAMO+UrGptL/rTm3G
+/JAaJkG5NbM=
+-----END CERTIFICATE-----
