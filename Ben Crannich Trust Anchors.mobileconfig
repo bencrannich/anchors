@@ -6,40 +6,6 @@
 	<array>
 		<dict>
 			<key>PayloadCertificateFileName</key>
-			<string>inter-x1.b1.crt</string>
-			<key>PayloadContent</key>
-			<data>
-			MIICLzCCAdWgAwIBAgIQMioeDy6hcZ0JbmWc1VgFJDAKBggqhkjO
-			PQQDBDA5MSAwHgYDVQQDDBdCZW4gQ3Jhbm5pY2ggUm9vdCBDQSBC
-			MTEVMBMGA1UECgwMQmVuIENyYW5uaWNoMB4XDTIyMTExODIwMjE1
-			N1oXDTI3MTExNzIwMjE1N1owQTEoMCYGA1UEAwwfQmVuIENyYW5u
-			aWNoIEludGVybWVkaWF0ZSBDQSBYMTEVMBMGA1UECgwMQmVuIENy
-			YW5uaWNoMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMLlR7Z/P
-			ZW9KPD5YMYj/73DwS5K7Eh823LihCU96sw4JmTT6h8jMvKQjbpBN
-			lxr7L8RN5hWVJqz79Q+yFyVp8qOBtjCBszAPBgNVHRMBAf8EBTAD
-			AQH/MA4GA1UdDwEB/wQEAwIBhjAdBgNVHQ4EFgQUflvnk6NZvEIK
-			0cGUoiW976a4s/wwcQYDVR0jBGowaIAUnZQFi4VTjbjaG15T5VuL
-			46S9VEuhPaQ7MDkxIDAeBgNVBAMMF0JlbiBDcmFubmljaCBSb290
-			IENBIEIxMRUwEwYDVQQKDAxCZW4gQ3Jhbm5pY2iCEQDw80bJWRzX
-			MMLFXQf8pKnNMAoGCCqGSM49BAMEA0gAMEUCIC1An2fHgAQ3Fw0V
-			PeIHHzfXSsMSaudsVq3802zFdMeqAiEAiVADh8X4Ow1LMO0rW53q
-			Im2T+Y/K09Dg3POVzlFBXTs=
-			</data>
-			<key>PayloadDescription</key>
-			<string>PKCS#1-formatiertes Zertifikat hinzufügen</string>
-			<key>PayloadDisplayName</key>
-			<string>Ben Crannich Intermediate CA X1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.security.pkcs1.C8383ED8-9670-4599-91C4-69F1BEAAF880</string>
-			<key>PayloadType</key>
-			<string>com.apple.security.pkcs1</string>
-			<key>PayloadUUID</key>
-			<string>C8383ED8-9670-4599-91C4-69F1BEAAF880</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>PayloadCertificateFileName</key>
 			<string>root-a1.crt</string>
 			<key>PayloadContent</key>
 			<data>
@@ -89,51 +55,6 @@
 			<string>com.apple.security.root</string>
 			<key>PayloadUUID</key>
 			<string>10A66D66-80A9-4BEE-BDC6-59D2FDC97494</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>PayloadCertificateFileName</key>
-			<string>inter-x1.a1.crt</string>
-			<key>PayloadContent</key>
-			<data>
-			MIID8DCCAdigAwIBAgIQMioeDy6hcZ0JbmWc1VgFJDANBgkqhkiG
-			9w0BAQ0FADA5MSAwHgYDVQQDDBdCZW4gQ3Jhbm5pY2ggUm9vdCBD
-			QSBBMTEVMBMGA1UECgwMQmVuIENyYW5uaWNoMB4XDTIyMTExODIw
-			MjA0OFoXDTI3MTExNzIwMjA0OFowQTEoMCYGA1UEAwwfQmVuIENy
-			YW5uaWNoIEludGVybWVkaWF0ZSBDQSBYMTEVMBMGA1UECgwMQmVu
-			IENyYW5uaWNoMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMLlR
-			7Z/PZW9KPD5YMYj/73DwS5K7Eh823LihCU96sw4JmTT6h8jMvKQj
-			bpBNlxr7L8RN5hWVJqz79Q+yFyVp8qOBtjCBszAPBgNVHRMBAf8E
-			BTADAQH/MA4GA1UdDwEB/wQEAwIBhjAdBgNVHQ4EFgQUflvnk6NZ
-			vEIK0cGUoiW976a4s/wwcQYDVR0jBGowaIAU100NOkV9jez5mo38
-			lEjAbfIxcUyhPaQ7MDkxIDAeBgNVBAMMF0JlbiBDcmFubmljaCBS
-			b290IENBIEExMRUwEwYDVQQKDAxCZW4gQ3Jhbm5pY2iCEQDAdevt
-			+P7JXZY8tcjQjwlrMA0GCSqGSIb3DQEBDQUAA4ICAQASmDmwQPjl
-			vuq+SeyQJZbw6+MeBsARAMFvgTl1iEsymPNO+TYklqugudxuMRjB
-			TqsX++wvGY5ujS4TQs3WMRBLuY1E6ZGDspvFNgpc8YxujrsgK19f
-			w3phZGyhm0pRk6ab3qRiLgGvvvmHgzbrGfmQ/XiiuKk+tL0vlJZI
-			7iaPf7knfN3vrqRFgqUZcNI658NwMaUfJwjXQgY4yqkzQRaR0MGW
-			pC+BpmTN3+idsm5veDB44h1BqVeHp0tpG9FflgQuuYZUF/DjCQxP
-			lcXuWi/wCyjqDMQZHTmf4N0ATJ3b4rZcq+tUT/JqYGgf7DIJQToo
-			BNKB4/CG2YKT1fv5ubpX/yCsLGo4zkKe0lbioaWWkW9p4+d+ZqF3
-			vX9P4k2P7lH2bn1IHDBQyNDRDSPto/6C/KXLR/5GIQRh64ug1lgM
-			gKBECVHXhdKrQ2T0Fboh1Id3YhsfIR6I2ymLyCIMNFeJPeK+ddbX
-			5lJV3gpyR6qVkGxCu7sjznxzFzV7Lw0WYPh355dfGG6Qy7477UiF
-			A0eBI+H3YAagIK8TMB7cMsmAQhTISIU6p4xpzrqO+B/ZuGLfQnqe
-			8PqJMO5i4g0YLUzb8BtzuKybmlNIL4wwoxh14E5BkKgZYEzCe0mN
-			06LlBI1b1EgUqIKaNbTqjtaPt4R4Ckl0op44vEegX9nZYnr8TQ==
-			</data>
-			<key>PayloadDescription</key>
-			<string>PKCS#1-formatiertes Zertifikat hinzufügen</string>
-			<key>PayloadDisplayName</key>
-			<string>Ben Crannich Intermediate CA X1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.security.pkcs1.03E15677-3EDE-4AEA-AB2F-C9AD19CBDA8C</string>
-			<key>PayloadType</key>
-			<string>com.apple.security.pkcs1</string>
-			<key>PayloadUUID</key>
-			<string>03E15677-3EDE-4AEA-AB2F-C9AD19CBDA8C</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
