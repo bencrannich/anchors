@@ -91,7 +91,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Installs the root and intermediate certificate authorities for Ben Crannich into the system trusted authority store</string>
+	<string>Installs the root and intermediate certificate authorities for Ben Crannich into the user trusted authority store</string>
 	<key>PayloadDisplayName</key>
 	<string>Ben Crannich Trust Anchors</string>
 	<key>PayloadIdentifier</key>
