@@ -1,9 +1,14 @@
 Package: bencrannich-anchors
-Version: 26.11.22-2
+Version: 26.11.22-3
 Section: site
+Depends: ca-certificates
 Priority: required
 Architecture: all
 Maintainer: Ben Crannich Operations <operations@BENCRANNICH.NET>
 Description: Ben Crannich trust anchors
-  This package contains the site-wide trust anchors for Ben Crannich.
-
+  This package contains the site-wide trust anchors (CA certificates) for Ben Crannich.
+  .
+  Upon installation, the certificates are added to /etc/ca-certificates.conf and activated.
+  .
+  If the certificates are already listed (but deactivated), they will not be
+  automatically re-activated.
