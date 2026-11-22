@@ -1,0 +1,9 @@
+Package: bencrannich-anchors
+Version: 26.11.22-2
+Section: site
+Priority: required
+Architecture: all
+Maintainer: Ben Crannich Operations <operations@BENCRANNICH.NET>
+Description: Ben Crannich trust anchors
+  This package contains the site-wide trust anchors for Ben Crannich.
+

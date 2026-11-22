@@ -1,0 +1,26 @@
+#! /bin/sh
+
+set -e
+
+check_match() {
+	_pattern="^!?$1\$"
+	if egrep "${_pattern}" /etc/ca-certificates.conf >/dev/null ; then
+		return 0
+	fi
+	return 1
+}
+
+check_and_add() {
+	if check_match "$1" ; then
+		printf "CA %s already present in /etc/ca-certificates.conf\n" "$1" >&2
+		return 0
+	fi
+	printf "Adding CA %s to /etc/ca-certificates.conf\n" "$1" >&2
+	echo "$1" >> /etc/ca-certificates.conf
+}
+
+check_and_add "ben-crannich/BenCrannich-Root-A1.crt"
+check_and_add "ben-crannich/BenCrannich-Root-B1.crt"
+check_and_add "ben-crannich/BenCrannich-Intermediate-X1.crt"
+update-ca-certificates
+
